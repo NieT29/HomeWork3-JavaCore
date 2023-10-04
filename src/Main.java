@@ -8,10 +8,10 @@ public class Main {
         System.out.println("Nhập password");
         String password = scanner.nextLine();
 
-        String usernameSystem = "techmaster";
-        String passwordSystem = "hoclacoviec";
+        String usernameCheck = "techmaster";
+        String passwordCheck = "hoclacoviec";
 
-        if (!username.equals(usernameSystem) || !password.equals(passwordSystem)) {
+        if (!username.equals(usernameCheck) || !password.equals(passwordCheck)) {
             System.out.println("Tài khoản không tồn tại, vui lòng thử lại");
         } else {
             System.out.println("Đăng nhập thành công");
